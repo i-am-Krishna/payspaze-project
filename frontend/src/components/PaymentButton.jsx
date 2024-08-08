@@ -113,8 +113,13 @@ const PaymentButton = () => {
         aria-describedby="alert-dialog-description"
       >
         <DialogContent>
-          <DialogContentText>
-            Payment Successful
+          <DialogContentText   sx={{
+              padding: '20px 100px',
+              color: 'black',
+              fontWeight: 'bold',
+              fontSize: '1.5rem'
+            }}>
+           Payment Successful
           </DialogContentText>
         </DialogContent>
         <DialogActions>

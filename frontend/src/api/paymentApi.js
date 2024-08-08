@@ -23,7 +23,7 @@ const mockApiResponse = (status) => {
     }
     
     // Example usage: Array of possible status codes
-    const values = [200, 400, 401, 500];
+    const values = [200, 400, 200,200,401,200,200,200,500,200];
     const randomValue = getRandomElement(values); // Get a random status code
     
     // Mocking an API response based on the random status code
