@@ -6,7 +6,7 @@ A React-based payment application with routing, a payment form, and toast notifi
 
 # Live Link 
 
-[text](https://66b47319be40e5b1e5015843--dulcet-halva-af8698.netlify.app/)
+[Click here to visit the website](https://66b47319be40e5b1e5015843--dulcet-halva-af8698.netlify.app/)
 
 
 # Features
