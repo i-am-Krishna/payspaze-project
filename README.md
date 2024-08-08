@@ -100,7 +100,8 @@ PaymentApi.js defines a mock API response system for testing purposes. The mockA
 The sendPayment function uses this mockApiResponse to simulate sending a payment request. It includes a helper function, getRandomElement, to select a random status code from a predefined array, ensuring diverse testing scenarios. This approach is beneficial for testing how the application handles different API responses without relying on a live server. It allows developers to verify error handling and response management in a controlled environment, improving the reliability and robustness of the application before deployment.
 
 
-
+# Testing success and failure ratios 
+I am adding success ratios for testing where 7 out of 10 times, the response is 200, and the other reactions are 400, 401, and 500.
 
 
 
