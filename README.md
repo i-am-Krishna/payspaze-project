@@ -91,6 +91,19 @@ The production build will be output to the build directory.
 With more time, I would enhance the PaymentButton component by adding comprehensive form validation, a loading indicator, and improved error handling for various scenarios. Integration with a real payment gateway and styling enhancements would be prioritized. Auto-focus on input fields and accessibility improvements would further refine user experience. Localization support and a user feedback mechanism would be implemented for broader reach and insight.
 I created Login page and add functionality for user signup and signin 
 
+
+
+# Testing Different Scenarios
+
+PaymentApi.js defines a mock API response system for testing purposes. The mockApiResponse function simulates various API responses based on the provided status code. It returns a resolved promise for a successful response (200), and a rejected promise for client-side errors (400), unauthorized errors (401), or server-side errors (500). The default case handles unexpected status codes by simulating a server error.
+
+The sendPayment function uses this mockApiResponse to simulate sending a payment request. It includes a helper function, getRandomElement, to select a random status code from a predefined array, ensuring diverse testing scenarios. This approach is beneficial for testing how the application handles different API responses without relying on a live server. It allows developers to verify error handling and response management in a controlled environment, improving the reliability and robustness of the application before deployment.
+
+
+
+
+
+
 # Assumptions
 
  Assumptions included standardized API responses, basic validation sufficiency, predefined field options, intuitive and browser compatibility. These steps aim to bolster the component’s robustness, usability, and overall effectiveness.
