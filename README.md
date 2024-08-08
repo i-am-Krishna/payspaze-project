@@ -78,3 +78,13 @@ The production build will be output to the build directory.
 2. React Router
 3. Material-UI
 4. react-toastify
+
+
+# Implemented if I have more time
+
+With more time, I would enhance the PaymentButton component by adding comprehensive form validation, a loading indicator, and improved error handling for various scenarios. Integration with a real payment gateway and styling enhancements would be prioritized. Auto-focus on input fields and accessibility improvements would further refine user experience. Localization support and a user feedback mechanism would be implemented for broader reach and insight.
+I created Login page and add functionality for user signup and signin 
+
+# Assumptions
+
+ Assumptions included standardized API responses, basic validation sufficiency, predefined field options, intuitive and browser compatibility. These steps aim to bolster the component’s robustness, usability, and overall effectiveness.
